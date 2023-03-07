@@ -1,0 +1,117 @@
+body{background-color: #e6e6e6;}
+body .p-menubar { background: #171745; border-radius: 0;}
+body .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text{
+  color: #ffffff !important; }
+body .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover
+{
+    color: #ffffff;}
+body .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: #ffffff !important;
+}
+body .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text{
+    color: #d0d0d0;
+}
+body .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon{
+    color: #d0d0d0;
+}
+body .p-datatable-tbody .p-button{height: 28px; font-size: 0.8rem;}
+.form-control{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+  border-radius: 4px;  
+}
+body .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+  color: #ffffff !important;
+}
+.spinnerDialog{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 6;
+  top: 0;
+}
+.spinnerDialog .p-progress-spinner{
+  z-index: 7;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 1rem;
+}
+.p-card.content-card .p-card-body {
+  padding: 0.5rem 1rem 0;
+}
+body .p-panel .p-panel-content, body .p-panel .p-panel-header{padding: 0.5rem;}
+.table{width: 100%; border-collapse: collapse; font-size: 0.8rem;}
+.table tr{}
+.table tr td{padding: 0.5rem; border: 1px solid #e6e6e6; margin: 0;}
+.content-card .p-card-body .p-card-content{padding-top: 0;}
+body .p-datepicker-month, body .p-datepicker-year{
+  display: inline;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+  border-radius: 4px;   
+}
+body .p-column-filter{width: 100%;}
+body a.p-button{text-decoration: none;}
+.p-card.content-card .p-card-title{font-size: 1rem; margin-bottom: 0.5rem;}
+.float-e{float: right;}
+.p-field > label, .p-button-label, .p-button.p-button-secondary, .p-field label{font-size: 0.8rem;}
+.p-fluid.p-formgrid.p-grid .p-field > label{margin-bottom: 0.3rem;}
+.p-dialog .p-dialog-footer{text-align: center;}
+
+.bg-login{
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);  
+  background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); 
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;   
+}
+.blockCards .p-mr-2{
+  padding: 0.5rem;
+  background-color: #fff;
+  text-align: center;  
+}
+.blockCards .p-mr-2 label{display: block; margin-bottom: 0.2rem;}
+.blockCards .p-mr-2 a{text-decoration: none;}
+body .p-datatable .p-datatable-thead > tr:first-child{background-color: #e7f6f7;}
+.p-datatable.p-datatable-sm .p-datatable-header{text-align: center;  background-color: #03A9F4; color: #fff;}
+.p-datatable .p-datatable-thead > tr > th:first-child{background-color: transparent;}
+.p-datatable .p-datatable-thead > tr:nth-child(2){background-color: #fff;}
+body .p-datatable .p-datatable-thead > tr > th{background-color: transparent;}
+.p-panel-content{margin-bottom: 0.5rem;}
+.saveISO.p-card .p-card-body{padding: 0 1rem 0.5rem 1rem;}
+
+.loginCard {background-color: #fff; text-align: center;}
+.loginCard img{ width: 70px; margin: 0.1rem 0 0 0;}
+.loginCard {padding: 1rem; border-left: 1px solid #e9ecef;}
+.loginBox.p-mt-6 {  margin-top: 6rem !important;}
+.loginCard .p-button{width: 100%;}
+.FloginCard{background-color: #fff; text-align: center;}
+.FloginCard img{width: 110px;}
+.FloginCard small{color: #9a9a9a;}
+.FloginCard .p-card-body{padding-bottom: 3rem;}
+.FloginCard .icon-img{
+  position: relative;
+  margin: 3rem auto 0;
+  width: 8rem;
+}
+.FloginCard .scroll-txt{    
+  width: 16rem;
+  color: #ff0000;
+  margin-top: 4rem;
+}
+.p-datatable-wrapper table > tbody > tr > td .p-button{line-height: 10px;} 
